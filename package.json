@@ -1,7 +1,13 @@
 {
   "name": "super-pet-clone",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "HerbertVidela"
+  },
+  "repository": {
+    "url": "https://github.com/HerbertVidela/super-pet-clone"
+  },
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
