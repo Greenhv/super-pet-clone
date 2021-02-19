@@ -1,0 +1,104 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/71525fe/
+.App	src/App.css	/^.App {$/;"	c
+.App-header	src/App.css	/^.App-header {$/;"	c
+.App-link	src/App.css	/^.App-link {$/;"	c
+.App-logo	src/App.css	/^  .App-logo {$/;"	c
+.App-logo	src/App.css	/^.App-logo {$/;"	c
+0	package.json	/^      ">0.2%",$/;"	s	array:browserslist.production
+0	package.json	/^      "last 1 chrome version",$/;"	s	array:browserslist.development
+0	package.json	/^      "react-app",$/;"	s	array:eslintConfig.extends
+0	public/manifest.json	/^    {$/;"	o	array:icons
+0	tsconfig.json	/^      "dom",$/;"	s	array:compilerOptions.lib
+0	tsconfig.json	/^    "src"$/;"	s	array:include
+1	package.json	/^      "last 1 firefox version",$/;"	s	array:browserslist.development
+1	package.json	/^      "not dead",$/;"	s	array:browserslist.production
+1	package.json	/^      "react-app\/jest"$/;"	s	array:eslintConfig.extends
+1	public/manifest.json	/^    {$/;"	o	array:icons
+1	tsconfig.json	/^      "dom.iterable",$/;"	s	array:compilerOptions.lib
+2	package.json	/^      "last 1 safari version"$/;"	s	array:browserslist.development
+2	package.json	/^      "not op_mini all"$/;"	s	array:browserslist.production
+2	public/manifest.json	/^    {$/;"	o	array:icons
+2	tsconfig.json	/^      "esnext"$/;"	s	array:compilerOptions.lib
+@testing-library/jest-dom	package.json	/^    "@testing-library\/jest-dom": "^5.11.4",$/;"	s	object:dependencies
+@testing-library/react	package.json	/^    "@testing-library\/react": "^11.1.0",$/;"	s	object:dependencies
+@testing-library/user-event	package.json	/^    "@testing-library\/user-event": "^12.1.10",$/;"	s	object:dependencies
+@types/jest	package.json	/^    "@types\/jest": "^26.0.15",$/;"	s	object:dependencies
+@types/node	package.json	/^    "@types\/node": "^12.0.0",$/;"	s	object:dependencies
+@types/react	package.json	/^    "@types\/react": "^17.0.0",$/;"	s	object:dependencies
+@types/react-dom	package.json	/^    "@types\/react-dom": "^17.0.0",$/;"	s	object:dependencies
+Available Scripts	README.md	/^## Available Scripts$/;"	s
+Learn More	README.md	/^## Learn More$/;"	s
+Super pet clone	README.md	/^# Super pet clone$/;"	c
+`yarn build`	README.md	/^### `yarn build`$/;"	S
+`yarn eject`	README.md	/^### `yarn eject`$/;"	S
+`yarn start`	README.md	/^### `yarn start`$/;"	S
+`yarn test`	README.md	/^### `yarn test`$/;"	S
+allowJs	tsconfig.json	/^    "allowJs": true,$/;"	b	object:compilerOptions
+allowSyntheticDefaultImports	tsconfig.json	/^    "allowSyntheticDefaultImports": true,$/;"	b	object:compilerOptions
+author	package.json	/^  "author": {$/;"	o
+background_color	public/manifest.json	/^  "background_color": "#ffffff"$/;"	s
+body	src/index.css	/^body {$/;"	s
+browserslist	package.json	/^  "browserslist": {$/;"	o
+build	package.json	/^    "build": "react-scripts build",$/;"	s	object:scripts
+code	src/index.css	/^code {$/;"	s
+compilerOptions	tsconfig.json	/^  "compilerOptions": {$/;"	o
+dependencies	package.json	/^  "dependencies": {$/;"	o
+development	package.json	/^    "development": [$/;"	a	object:browserslist
+display	public/manifest.json	/^  "display": "standalone",$/;"	s
+eject	package.json	/^    "eject": "react-scripts eject"$/;"	s	object:scripts
+esModuleInterop	tsconfig.json	/^    "esModuleInterop": true,$/;"	b	object:compilerOptions
+eslint.autoFixOnSave	.vim/coc-settings.json	/^  "eslint.autoFixOnSave": true$/;"	b
+eslintConfig	package.json	/^  "eslintConfig": {$/;"	o
+extends	package.json	/^    "extends": [$/;"	a	object:eslintConfig
+forceConsistentCasingInFileNames	tsconfig.json	/^    "forceConsistentCasingInFileNames": true,$/;"	b	object:compilerOptions
+icons	public/manifest.json	/^  "icons": [$/;"	a
+if	src/reportWebVitals.ts	/^  if (onPerfEntry && onPerfEntry instanceof Function) {$/;"	C
+import	src/reportWebVitals.ts	/^    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {$/;"	C
+include	tsconfig.json	/^  "include": [$/;"	a
+isolatedModules	tsconfig.json	/^    "isolatedModules": true,$/;"	b	object:compilerOptions
+jsx	tsconfig.json	/^    "jsx": "react-jsx"$/;"	s	object:compilerOptions
+lib	tsconfig.json	/^    "lib": [$/;"	a	object:compilerOptions
+module	tsconfig.json	/^    "module": "esnext",$/;"	s	object:compilerOptions
+moduleResolution	tsconfig.json	/^    "moduleResolution": "node",$/;"	s	object:compilerOptions
+name	package.json	/^    "name": "HerbertVidela"$/;"	s	object:author
+name	package.json	/^  "name": "super-pet-clone",$/;"	s
+name	public/manifest.json	/^  "name": "Create React App Sample",$/;"	s
+noEmit	tsconfig.json	/^    "noEmit": true,$/;"	b	object:compilerOptions
+noFallthroughCasesInSwitch	tsconfig.json	/^    "noFallthroughCasesInSwitch": true,$/;"	b	object:compilerOptions
+private	package.json	/^  "private": false,$/;"	b
+production	package.json	/^    "production": [$/;"	a	object:browserslist
+react	package.json	/^    "react": "^17.0.1",$/;"	s	object:dependencies
+react-dom	package.json	/^    "react-dom": "^17.0.1",$/;"	s	object:dependencies
+react-scripts	package.json	/^    "react-scripts": "4.0.2",$/;"	s	object:dependencies
+reportWebVitals	src/reportWebVitals.ts	/^const reportWebVitals = (onPerfEntry?: ReportHandler) => {$/;"	C
+repository	package.json	/^  "repository": {$/;"	o
+resolveJsonModule	tsconfig.json	/^    "resolveJsonModule": true,$/;"	b	object:compilerOptions
+root	public/index.html	/^    <div id="root"><\/div>$/;"	I
+scripts	package.json	/^  "scripts": {$/;"	o
+short_name	public/manifest.json	/^  "short_name": "React App",$/;"	s
+sizes	public/manifest.json	/^      "sizes": "192x192"$/;"	s	object:icons.1
+sizes	public/manifest.json	/^      "sizes": "512x512"$/;"	s	object:icons.2
+sizes	public/manifest.json	/^      "sizes": "64x64 32x32 24x24 16x16",$/;"	s	object:icons.0
+skipLibCheck	tsconfig.json	/^    "skipLibCheck": true,$/;"	b	object:compilerOptions
+src	public/manifest.json	/^      "src": "favicon.ico",$/;"	s	object:icons.0
+src	public/manifest.json	/^      "src": "logo192.png",$/;"	s	object:icons.1
+src	public/manifest.json	/^      "src": "logo512.png",$/;"	s	object:icons.2
+start	package.json	/^    "start": "react-scripts start",$/;"	s	object:scripts
+start_url	public/manifest.json	/^  "start_url": ".",$/;"	s
+strict	tsconfig.json	/^    "strict": true,$/;"	b	object:compilerOptions
+target	tsconfig.json	/^    "target": "es5",$/;"	s	object:compilerOptions
+test	package.json	/^    "test": "react-scripts test",$/;"	s	object:scripts
+theme_color	public/manifest.json	/^  "theme_color": "#000000",$/;"	s
+type	public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.1
+type	public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.2
+type	public/manifest.json	/^      "type": "image\/x-icon"$/;"	s	object:icons.0
+typescript	package.json	/^    "typescript": "^4.1.2",$/;"	s	object:dependencies
+url	package.json	/^    "url": "https:\/\/github.com\/HerbertVidela\/super-pet-clone"$/;"	s	object:repository
+version	package.json	/^  "version": "0.1.0",$/;"	s
+web-vitals	package.json	/^    "web-vitals": "^1.0.1"$/;"	s	object:dependencies
