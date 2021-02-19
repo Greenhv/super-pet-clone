@@ -33,8 +33,8 @@
 @types/react	package.json	/^    "@types\/react": "^17.0.0",$/;"	s	object:dependencies
 @types/react-dom	package.json	/^    "@types\/react-dom": "^17.0.0",$/;"	s	object:dependencies
 Available Scripts	README.md	/^## Available Scripts$/;"	s
-Getting Started with Create React App	README.md	/^# Getting Started with Create React App$/;"	c
 Learn More	README.md	/^## Learn More$/;"	s
+Super pet clone	README.md	/^# Super pet clone$/;"	c
 `yarn build`	README.md	/^### `yarn build`$/;"	S
 `yarn eject`	README.md	/^### `yarn eject`$/;"	S
 `yarn start`	README.md	/^### `yarn start`$/;"	S
