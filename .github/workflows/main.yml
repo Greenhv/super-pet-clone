@@ -46,7 +46,7 @@ jobs:
           cmd: test # will run `yarn test` command
 
   deploy:
-    if: github.event == 'push'
+    if: ${{ github.event == 'push' }}
     runs-on: ubuntu-latest
 
     steps:
