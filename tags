@@ -51,7 +51,7 @@ compilerOptions	tsconfig.json	/^  "compilerOptions": {$/;"	o
 dependencies	package.json	/^  "dependencies": {$/;"	o
 development	package.json	/^    "development": [$/;"	a	object:browserslist
 display	public/manifest.json	/^  "display": "standalone",$/;"	s
-eject	package.json	/^    "eject": "react-scripts eject"$/;"	s	object:scripts
+eject	package.json	/^    "eject": "react-scripts eject",$/;"	s	object:scripts
 esModuleInterop	tsconfig.json	/^    "esModuleInterop": true,$/;"	b	object:compilerOptions
 eslint.autoFixOnSave	.vim/coc-settings.json	/^  "eslint.autoFixOnSave": true$/;"	b
 eslintConfig	package.json	/^  "eslintConfig": {$/;"	o
@@ -64,6 +64,7 @@ include	tsconfig.json	/^  "include": [$/;"	a
 isolatedModules	tsconfig.json	/^    "isolatedModules": true,$/;"	b	object:compilerOptions
 jsx	tsconfig.json	/^    "jsx": "react-jsx"$/;"	s	object:compilerOptions
 lib	tsconfig.json	/^    "lib": [$/;"	a	object:compilerOptions
+lint	package.json	/^    "lint": "eslint .",$/;"	s	object:scripts
 module	tsconfig.json	/^    "module": "esnext",$/;"	s	object:compilerOptions
 moduleResolution	tsconfig.json	/^    "moduleResolution": "node",$/;"	s	object:compilerOptions
 name	package.json	/^    "name": "HerbertVidela"$/;"	s	object:author
@@ -98,6 +99,7 @@ theme_color	public/manifest.json	/^  "theme_color": "#000000",$/;"	s
 type	public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.1
 type	public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.2
 type	public/manifest.json	/^      "type": "image\/x-icon"$/;"	s	object:icons.0
+typecheck	package.json	/^    "typecheck": "tsc --noEmit"$/;"	s	object:scripts
 typescript	package.json	/^    "typescript": "^4.1.2",$/;"	s	object:dependencies
 url	package.json	/^    "url": "https:\/\/github.com\/HerbertVidela\/super-pet-clone"$/;"	s	object:repository
 version	package.json	/^  "version": "0.1.0",$/;"	s
