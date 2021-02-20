@@ -45,7 +45,13 @@ jobs:
         with:
           cmd: test # will run `yarn test` command
 
-      if: github.event === 'push'
+  deploy:
+    if: github.event == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
       - name: 'Push to Heroku'
         uses: CDNievas/heroku-action@v1.0 # This is the action
         with:
@@ -54,3 +60,4 @@ jobs:
           heroku_app_name: "super-pet-clone"
           branch: "main"
           procfile: "web: npx serve -s build"
+
