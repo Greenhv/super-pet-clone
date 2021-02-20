@@ -54,10 +54,11 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: 'Push to Heroku'
-        uses: CDNievas/heroku-action@v1.0 # This is the action
+        uses: akhileshns/heroku-deploy@v3.11.10 # This is the action
         with:
           heroku_email: "hvidelac@gmail.com"
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "super-pet-clone"
           branch: "main"
+          procfile: "web: npx serve -s build"
 
