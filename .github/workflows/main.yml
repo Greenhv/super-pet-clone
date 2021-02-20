@@ -47,6 +47,7 @@ jobs:
 
   deploy:
     if: github.event_name == 'push'
+    needs: code-quality
     runs-on: ubuntu-latest
 
     steps:
@@ -59,5 +60,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "super-pet-clone"
           branch: "main"
-          procfile: "web: npx serve -s build"
 
