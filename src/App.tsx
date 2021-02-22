@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './componets/Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Nav />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
